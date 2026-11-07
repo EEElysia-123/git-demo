@@ -1,0 +1,15 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and caches
+node_modules/
+__pycache__/
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
